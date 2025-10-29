@@ -20,7 +20,7 @@ If Gemini Nano isn’t available, Briefly AI seamlessly switches to **Mock Mode*
 
 ## Features
 
-### 🧩 Core Functionality
+### Core Functionality
 
 * **One-Click Chat Summarization** → Summarize active chat instantly.
 * **Priority Detection** → Automatically classify important messages.
