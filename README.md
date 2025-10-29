@@ -145,12 +145,6 @@ No more manual reading — get clarity in seconds.
 
 ---
 
-## License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 🔗 Links
 
 * [Chrome Developers Docs - Built-in AI APIs](https://developer.chrome.com/docs/ai/)
