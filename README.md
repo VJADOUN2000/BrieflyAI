@@ -1,10 +1,3 @@
-Perfect 👌 Vikrant — you’re doing this like a pro!
-Let’s now make your **GitHub README** visually stunning by adding your **Briefly AI logo image** to the top (the one you uploaded).
-
-Here’s your **final polished README** (Markdown) — optimized for GitHub display with your logo, professional sectioning, and emojis that look great both in light and dark mode.
-
----
-
 # **Briefly AI - Chrome Extension**
 
 <p align="center">
