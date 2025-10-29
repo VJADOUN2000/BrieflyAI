@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Briefly AI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div style="text-align:center; margin-bottom:10px;">
+      <img src="icons/icon128.png" width="32" style="vertical-align:middle;margin-right:8px;" alt="Briefly AI logo" />
+      <span style="font-weight:bold;font-size:16px; vertical-align:middle;">Briefly AI</span>
+      <div style="font-size:12px;color:#666;margin-top:4px;">Chat Summary & Insights</div>
+    </div>
+
+    <h2 style="margin-top:10px;margin-bottom:6px;">Chat Summary</h2>
+    <pre id="summary">No summary yet.</pre>
+
+    <h3>Priority</h3>
+    <div id="priority">N/A</div>
+
+    <h3>Action Items</h3>
+    <div id="actions">
+      <pre class="action-block">No specific action items detected.</pre>
+    </div>
+
+    <h3>Suggested Reply</h3>
+    <textarea id="reply" placeholder="AI-generated or manual reply here..."></textarea>
+
+    <button id="proofread">Proofread</button>
+    <button id="resummarize" class="secondary">Summarize Again</button>
+
+    <div id="ai-diagnostic" class="ai-card">
+      <div class="ai-row" style="align-items:center;">
+        <div id="ai-status" class="ai-badge">Checking AI...</div>
+        <button id="ai-test" class="ai-test-btn">Run Gemini AI Test</button>
+      </div>
+      <div id="ai-result" class="ai-result"></div>
+    </div>
+
+    <p id="mode">AI Mode: Checking...</p>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
