@@ -145,26 +145,6 @@ No more manual reading — get clarity in seconds.
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions! You can help by:
-
-* Supporting more platforms (Teams, Discord, Telegram)
-* Enhancing popup UI/UX
-* Optimizing AI prompt flows
-* Reporting bugs or suggesting new features
-
-Steps:
-
-```bash
-git clone https://github.com/<your-username>/briefly-ai.git
-git checkout -b feature/<feature-name>
-git commit -m "Add new feature"
-git push origin feature/<feature-name>
-```
-
----
-
 ## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
