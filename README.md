@@ -8,7 +8,7 @@
 
 ---
 
-## 🧠 Description
+## Description
 
 **Briefly AI** is designed to save you from reading long message threads.
 It automatically scans active **Slack** or **WhatsApp Web** conversations, summarizes all messages, highlights key action items, sets priorities, and even suggests professional replies — all within seconds.
@@ -18,7 +18,7 @@ If Gemini Nano isn’t available, Briefly AI seamlessly switches to **Mock Mode*
 
 ---
 
-## ✨ Features
+## Features
 
 ### 🧩 Core Functionality
 
@@ -30,7 +30,7 @@ If Gemini Nano isn’t available, Briefly AI seamlessly switches to **Mock Mode*
 
 ---
 
-### 💫 Advanced AI Capabilities
+### Advanced AI Capabilities
 
 * **Gemini Nano Integration:** Leverages Chrome’s built-in on-device model (`chrome.ai.summarizer`, `chrome.ai.writer`, `chrome.ai.proofreader`).
 * **Offline Mock Mode:** Works locally when AI APIs are unavailable.
@@ -39,21 +39,21 @@ If Gemini Nano isn’t available, Briefly AI seamlessly switches to **Mock Mode*
 
 ---
 
-### 🧰 User Experience
+### User Experience
 
 * Floating **Summarize Chat** button inside Slack/WhatsApp UI.
 * Elegant **Popup Dashboard** showing:
 
-  * 📝 Summarized messages
-  * ⭐ Priority level
-  * ✅ Action items
-  * 💬 Suggested reply
+  * Summarized messages
+  * Priority level
+  * Action items
+  * Suggested reply
 * Live **AI Diagnostics** (Summarizer, Writer, Proofreader indicators).
-* Smart alert feedback — *e.g.*, “✅ Summary generated successfully”.
+* Smart alert feedback — *e.g.*, “Summary generated successfully”.
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 briefly-ai/
@@ -75,7 +75,7 @@ briefly-ai/
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Method 1 — From Source (Developer Mode)
 
@@ -103,27 +103,27 @@ briefly-ai/
 3. The extension extracts recent visible messages.
 4. The background script determines AI availability:
 
-   * 🧠 **Gemini Nano active** → uses Chrome’s on-device AI APIs.
-   * ⚙️ **Fallback active** → uses built-in summarization logic.
+   * **Gemini Nano active** → uses Chrome’s on-device AI APIs.
+   * **Fallback active** → uses built-in summarization logic.
 5. Results appear in the popup instantly.
 
 ---
 
-## 🧠 AI Mode Detection
+## AI Mode Detection
 
 | Mode                             | Description                                  |
 | -------------------------------- | -------------------------------------------- |
-| 🧠 **AI Mode: ON (Gemini Nano)** | Running on Chrome’s on-device AI APIs        |
-| ⚙️ **AI Mode: OFF (Mock)**       | Fallback for browsers without Gemini support |
+| **AI Mode: ON (Gemini Nano)** | Running on Chrome’s on-device AI APIs        |
+| **AI Mode: OFF (Mock)**       | Fallback for browsers without Gemini support |
 
 ---
 
 ## 🤖 APIs Utilized
 
-* 🧩 **Summarizer API** — Condenses chat content into concise summaries.
-* ✍️ **Writer API** — Creates professional, context-aware replies.
-* 🧹 **Proofreader API** — Improves grammar and tone.
-* 💡 **Prompt API** — Extracts structured data from chat content.
+* **Summarizer API** — Condenses chat content into concise summaries.
+* **Writer API** — Creates professional, context-aware replies.
+* **Proofreader API** — Improves grammar and tone.
+* **Prompt API** — Extracts structured data from chat content.
 
 ---
 
@@ -141,7 +141,7 @@ Priority: High
 Suggested Reply: "Thanks for the update — noted! Will review by evening."
 ```
 
-🎯 No more manual reading — get clarity in seconds.
+No more manual reading — get clarity in seconds.
 
 ---
 
@@ -149,10 +149,10 @@ Suggested Reply: "Thanks for the update — noted! Will review by evening."
 
 We welcome contributions! You can help by:
 
-* 🧩 Supporting more platforms (Teams, Discord, Telegram)
-* 🎨 Enhancing popup UI/UX
-* ⚙️ Optimizing AI prompt flows
-* 🐞 Reporting bugs or suggesting new features
+* Supporting more platforms (Teams, Discord, Telegram)
+* Enhancing popup UI/UX
+* Optimizing AI prompt flows
+* Reporting bugs or suggesting new features
 
 Steps:
 
@@ -165,7 +165,7 @@ git push origin feature/<feature-name>
 
 ---
 
-## 🪪 License
+## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
