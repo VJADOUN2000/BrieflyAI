@@ -154,8 +154,15 @@ No more manual reading — get clarity in seconds.
 
 ---
 
+## License
+
+This project is licensed under the MIT License.
+See the LICENSE file for details.
+
+---
+
 **Made with ❤️ for productivity and simplicity**
-💬 *Briefly AI — Let AI read your messages, so you don’t have to.*
+💬 *Briefly AI: Let AI read your messages, so you don’t have to.*
 
 ---
 
